@@ -1,25 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body{
+    background-color:rgb(250, 252, 228);
+}
+
 #explorer{
     position: fixed;
-    background-color: rgb(20, 229, 229);
-    color:rgb(224, 61, 20);
+    background-color: #149ce5;
+    color:rgb(255, 255, 255);
     border: 2px;
-    border-color: red ;
+    border-color: rgb(255, 255, 255) ;
     overflow: hidden;
     border-bottom: solid gray;
     width: 100%; 
     margin: -1% 0px 0px -8px;
+    height: 20%;
 }
 
 #logo > h1{
     margin-top: 0%;
     padding-bottom: -5%;
+    font-family: Dancing Script, sans-serif;
+    font-size: 2rem;
 }
 
 #logo > h2{
     padding-top: -5%;
     margin-top: -2%;
+    font-family: Dancing Script, sans-serif;
+    font-size: 4em;
 }
 
-.navigator{
+ 
 
-}
+ .navigator > li{
+    text-align: center;
+    display: inline;
+    list-style-type: none;
+    padding-right: 3%;
+    padding-bottom: 3%;
+ }
+
+/* align nav text to the center */
+ .navigator{
+    text-align: center;
+ }
+ 
+ .navigator a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    font-family: Ubuntu, sans-serif;
+ }
+
+ .navigator a:hover{
+    color: rgb(231, 10, 227);
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+ }
+
+ a:active {
+    background-color: rgb(10, 231, 120);
+  }
