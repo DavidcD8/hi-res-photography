@@ -1,0 +1,25 @@
+#explorer{
+    position: fixed;
+    background-color: rgb(20, 229, 229);
+    color:rgb(224, 61, 20);
+    border: 2px;
+    border-color: red ;
+    overflow: hidden;
+    border-bottom: solid gray;
+    width: 100%; 
+    margin: -1% 0px 0px -8px;
+}
+
+#logo > h1{
+    margin-top: 0%;
+    padding-bottom: -5%;
+}
+
+#logo > h2{
+    padding-top: -5%;
+    margin-top: -2%;
+}
+
+.navigator{
+
+}
