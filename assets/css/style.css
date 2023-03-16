@@ -53,8 +53,8 @@ nav {
 }
 
 #navigator a:hover {
-   color: rgb(16, 100, 255);
-   background-color: rgb(7, 27, 81);
+   color: rgb(16, 255, 88);
+   background-color: rgb(31, 185, 240);
    border-radius: 2px;
    border-style: dashed;
 }
@@ -97,4 +97,12 @@ footer {
 
 .social-networks i {
    color: white;
+   text-shadow: 1px 1px 2px #8b14ed;
+}
+
+.social-networks i:hover {
+   color: rgb(16, 255, 88);
+   background-color: rgb(31, 185, 240);
+   border-radius: 2px;
+   border-style: dashed;
 }
