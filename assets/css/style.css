@@ -18,13 +18,14 @@ nav {
    width: 100%;
    height: 50px;
    box-shadow: -1px 1px 2px #acacac;
-
 }
 
 #logo {
    font-family: Dancing Script, sans-serif;
    font-size: 1em;
    float: left;
+   color: white;
+   text-shadow: 1px 1px 2px #8b14ed;
 }
 
 #logo,
@@ -37,6 +38,7 @@ nav {
    margin-right: 30px;
    font-family: Ubuntu, sans-serif;
    display: inline;
+   text-shadow: 1px 1px 2px #8b14ed;
 }
 
 #navigator a {
@@ -52,7 +54,7 @@ nav {
 
 #navigator a:hover {
    color: rgb(16, 100, 255);
-   background-color: rgb(80, 248, 169);
+   background-color: rgb(7, 27, 81);
    border-radius: 2px;
    border-style: dashed;
 }
@@ -74,4 +76,25 @@ nav {
    nav {
       height: 80px;
    }
+}
+
+footer {
+   background-color: #149ce5;
+   width: 100%;
+   position: absolute;
+   bottom: -100%;
+   padding-bottom: -20px;
+
+
+}
+
+.social-networks>li {
+   float: left;
+   display: inline;
+   margin: 1%;
+   font-size: 2rem;
+}
+
+.social-networks i {
+   color: white;
 }
