@@ -9,7 +9,7 @@
 }
 
 body {
-   background-color: rgb(225, 225, 225);
+   background-color: rgb(224, 224, 224);
 }
 
 nav {
@@ -54,14 +54,14 @@ nav {
 }
 
 #navigator a:hover {
-   color: rgb(16, 255, 88);
+   color: rgb(16, 128, 255);
    background-color: #ffffff;
    border-radius: 2px;
    border-style: dashed;
 }
 
 .active {
-   background-color: #0dd9ad;
+   background-color: #cfd1d1;
    color: white;
    border-radius: 2px;
 }
@@ -71,13 +71,13 @@ nav {
    #navigator {
       clear: left;
       float: left;
-      margin-left: 30px;
+      margin-left: 4px;
       margin-bottom: 20px;
       line-height: 19px;
    }
 
    nav {
-      height: 80px;
+      height: 90px;
    }
 }
 
@@ -87,14 +87,14 @@ footer {
    position: absolute;
    bottom: -100%;
    padding-bottom: -20px;
-
-
+   background-color: #149ce5
+ 
 }
 
 .social-networks>li {
    float: left;
    display: inline;
-   margin: 1%;
+   padding: 4px;
    font-size: 2rem;
 }
 
@@ -110,8 +110,8 @@ footer {
    border-style: dashed;
 }
 
-#plan1{
-   background-color: #0dd9ad;
+#plan1 {
+   background: #149ce5;
    border: solid 2px #ffffff;
    border-radius: 2px;
    height: 400px;
@@ -126,13 +126,14 @@ footer {
    z-index: -1;
    padding: 1%;
    width: 20%;
-   text-shadow: 1px 2px 2px #ffffff;
-   box-shadow: 1px 2px 2px #5a14e5;
-   color:#5a14e5;
+   text-shadow: 1px 2px 2px #e6c90b;
+   box-shadow: 1px 2px 2px #e6c90b;
+   color: #ffffff;
+   
 }
 
-#plan2{
-   background-color: #0dd9ad;
+#plan2 {
+   background: #149ce5;
    border: solid 2px #ffffff;
    border-radius: 2px;
    height: 400px;
@@ -147,13 +148,13 @@ footer {
    z-index: -1;
    padding: 1%;
    width: 20%;
-   text-shadow: 1px 2px 2px #ffffff;
-   box-shadow: 1px 2px 2px #5a14e5;
-   color:#5a14e5;
+   text-shadow: 1px 2px 2px #e6c90b;
+   box-shadow: 1px 2px 2px #e6c90b;
+   color: #ffffff;
 }
 
-#plan3{
-   background-color: #0dd9ad;
+#plan3 {
+   background: #149ce5;
    border: solid 2px #ffffff;
    border-radius: 2px;
    height: 400px;
@@ -168,9 +169,9 @@ footer {
    z-index: -1;
    padding: 1%;
    width: 20%;
-   text-shadow: 1px 2px 2px #ffffff;
-   box-shadow: 1px 2px 2px #5a14e5;
-   color:#5a14e5;
+   text-shadow: 1px 2px 2px #e6c90b;
+   box-shadow: 1px 2px 2px #e6c90b;
+   color: #ffffff;
 }
 
 @media screen and (max-width: 950px) {
@@ -205,7 +206,7 @@ footer {
       float: right;
       margin-top: 115px;
       margin-left: 71%;
-      
+
    }
-   
+
 }
