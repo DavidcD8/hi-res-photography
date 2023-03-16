@@ -22,10 +22,10 @@ nav {
 
 #logo {
    font-family: Dancing Script, sans-serif;
-   font-size: 1em;
+   font-size: 1.3em;
    float: left;
    color: white;
-   text-shadow: 1px 1px 2px #8b14ed;
+   text-shadow: 1px 1px 2px #0dd9ad;
 }
 
 #logo,
@@ -38,7 +38,8 @@ nav {
    margin-right: 30px;
    font-family: Ubuntu, sans-serif;
    display: inline;
-   text-shadow: 1px 1px 2px #8b14ed;
+   text-shadow: 1px 1px 2px #042921;
+   font-size: 1.3em;
 }
 
 #navigator a {
@@ -54,13 +55,15 @@ nav {
 
 #navigator a:hover {
    color: rgb(16, 255, 88);
-   background-color: rgb(31, 185, 240);
+   background-color: #ffffff;
    border-radius: 2px;
    border-style: dashed;
 }
 
 .active {
-   border-bottom: 1px solid #000000;
+   background-color: #0dd9ad;
+   color: white;
+   border-radius: 2px;
 }
 
 @media screen and (max-width: 950px) {
@@ -97,7 +100,7 @@ footer {
 
 .social-networks i {
    color: white;
-   text-shadow: 1px 1px 2px #8b14ed;
+   text-shadow: 1px 1px 2px #0dd9ad;
 }
 
 .social-networks i:hover {
@@ -105,4 +108,104 @@ footer {
    background-color: rgb(31, 185, 240);
    border-radius: 2px;
    border-style: dashed;
+}
+
+#plan1{
+   background-color: #0dd9ad;
+   border: solid 2px #ffffff;
+   border-radius: 2px;
+   height: 400px;
+   left: 10px;
+   text-align: left;
+   display: inline-block;
+   margin-top: 10%;
+   margin-left: 15%;
+   font-size: 30px;
+   position: absolute;
+   font-family: Ubuntu, sans-serif;
+   z-index: -1;
+   padding: 1%;
+   width: 20%;
+   text-shadow: 1px 2px 2px #ffffff;
+   box-shadow: 1px 2px 2px #5a14e5;
+   color:#5a14e5;
+}
+
+#plan2{
+   background-color: #0dd9ad;
+   border: solid 2px #ffffff;
+   border-radius: 2px;
+   height: 400px;
+   left: 10px;
+   text-align: left;
+   display: inline-block;
+   margin-top: 10%;
+   margin-left: 40%;
+   font-size: 30px;
+   position: absolute;
+   font-family: Ubuntu, sans-serif;
+   z-index: -1;
+   padding: 1%;
+   width: 20%;
+   text-shadow: 1px 2px 2px #ffffff;
+   box-shadow: 1px 2px 2px #5a14e5;
+   color:#5a14e5;
+}
+
+#plan3{
+   background-color: #0dd9ad;
+   border: solid 2px #ffffff;
+   border-radius: 2px;
+   height: 400px;
+   left: 10px;
+   text-align: left;
+   display: inline-block;
+   margin-top: 10%;
+   margin-left: 65%;
+   font-size: 30px;
+   position: absolute;
+   font-family: Ubuntu, sans-serif;
+   z-index: -1;
+   padding: 1%;
+   width: 20%;
+   text-shadow: 1px 2px 2px #ffffff;
+   box-shadow: 1px 2px 2px #5a14e5;
+   color:#5a14e5;
+}
+
+@media screen and (max-width: 950px) {
+
+   #plan1 {
+      font-size: 10px;
+      width: 20%;
+      height: 20%;
+      clear: both;
+      float: left;
+      margin-top: 115px;
+      margin-left: 2px;
+
+   }
+
+   #plan2 {
+      font-size: 10px;
+      width: 20%;
+      height: 20%;
+      clear: both;
+      float: left;
+      margin-top: 115px;
+      margin-left: 36%;
+
+   }
+
+   #plan3 {
+      font-size: 10px;
+      width: 20%;
+      height: 20%;
+      clear: right;
+      float: right;
+      margin-top: 115px;
+      margin-left: 71%;
+      
+   }
+   
 }
