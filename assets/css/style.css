@@ -17,13 +17,14 @@ nav {
    position: fixed;
    background-color: #149ce5;
    width: 100%;
-   height: 50px;
+   height: 15%;
    box-shadow: -1px 1px 2px #acacac;
+   z-index: 1;
 }
 
 #logo {
    font-family: "Dancing Script", sans-serif;
-   font-size: 1.5em;
+   font-size: 1.3em;
    float: left;
    color: white;
    text-shadow: 1px 1px 2px rgb(189, 14, 224);
@@ -52,6 +53,7 @@ nav {
 /* reposition the nav bar that shows reversed  */
 #navigator {
    float: right;
+   
 }
 
 #navigator a:hover {
@@ -108,6 +110,7 @@ footer {
    border-radius: 2px;
    color: black;
    font-size: 15px;
+   margin-left: 3px;
 }
 
 #package2 {
@@ -116,227 +119,157 @@ footer {
    font-family: Ubuntu, sans-serif;
    height: 200px;
    margin-top: 100px;
-   margin-left: 500px;
+   margin-left: 430px;
    color: black;
    font-size: 15px;
 }
-
-
-
-@media screen and (max-width: 772px){
-
-   nav{
-       height: 80px;
-       position: fixed;
-       width: 100%;
-       margin-bottom: 20px;
-       line-height: 25px;
-   }
-  
-
-   #package1{
-   
-      font-size: 11px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    px;
-      float: left;
-      clear: right;
-       height: 140px;
-       margin: 140px auto;
-   }
-  #package2{
-   top: 200px;
-   bottom: 20px;
-   font-size: 11px;
-   float: right;
-   clear: left;
-      height: 140px;
-      margin: 140px auto; 
-  }
-}
-
-
-
-@media screen and (max-width: 584px){
-
-   nav{
-       height: 90px;
-       position: fixed;
-       width: 100%;
-       margin-bottom: 20px;
-       line-height: 25px;
-   }
-  
-
-   #package1{
-   
-      font-size: 11px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    px;
-      float: left;
-      clear: right;
-       height: 140px;
-       margin: 140px auto;
-   }
-  #package2{
-   top: 200px;
-   bottom: 20px;
-   font-size: 11px;
-   float: right;
-   clear: left;
-      height: 140px;
-      margin: 140px auto; 
-  }
-}
-
-@media screen and (max-width: 480px){
-
-   nav{
-       height: 100px;
-       position: fixed;
-       width: 100%;
-       margin-bottom: 20px;
-       line-height: 25px;
-   }
-  
-
-   #package1{
-      font-size: 15px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    px;
-      float: left;
-      clear: right;
-       height: 200px;
-       margin: 140px auto;
-   }
-  #package2{
-   top: 280px;
-   font-size: 15px;
-   float: right;
-   clear: left;
-      height: 200px;
-      margin: 140px auto; 
-  }
-}
-
-
-@media screen and (max-width: 380px){
-
-   nav{
-       display: inline;
-       height: 100px;
-       position: fixed;
-       width: 100%;
-       margin-bottom: 20px;
-       line-height: 25px;
-   }
-  #navigator a{
-   font-size: 15px;
-  }
-
-   #package1{
-      font-size: 12px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    px;
-      float: left;
-      clear: right;
-       height: 150px;
-       margin: 140px auto;
-   }
-  #package2{
-   top: 230px;
-   font-size: 12px;
-   float: right;
-   clear: left;
-   height: 150px;
-   margin: 140px auto; 
-  }
-}
-
-@media screen and (max-width: 320px){
-
-   nav{
-       display: inline;
-       height: 100px;
-       position: fixed;
-       width: 100%;
-       margin-bottom: 20px;
-       line-height: 25px;
-       
-   }
-  #navigator a{
-   font-size: 12px;
-   left: 111px;
-    margin-left: -2px;
-  }
-
-   #package1{
-      font-size: 9px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    px;
-      float: left;
-      clear: right;
-       height: 110px;
-       margin: 140px auto;
-   }
-  #package2{
-   font-size: 9px;
-   top: 170px;
-   font-size: 19x;
-   float: right;
-   clear: left;
-   height: 110px;
-   margin: 140px auto; 
-  }
-  #contactp > p{
+ 
+ 
+#secondform{
    position: absolute;
-   margin-top: 1%;
-   padding: 0;
-   top: 11%;
+   color: rgb(0, 0, 0);
+   display: block;
+   height: 163px;
+   margin: 10% 0 -100px 10px;
+   width: 765px;
    font-family: Ubuntu, sans-serif;
-   font-size: 221%;
-   color: black;
-   text-align: center;
+   font-size: 30px;
+   padding: -10% 0 0 0;
+}
+#secondformdiv{
+   position: absolute;
+   display: block;
+     background-color: rgba(66, 174, 233, .6);
+     height: 50%;
+     width: 20%;
+     margin: 10% 0 0 30px;
+     border-radius: 2px;
+     border: solid 1px black;
+}
+
+ 
+
+
+
+/* For screens 1200px and below*/
+  @media screen and (max-width: 1200px) {
+   nav {
+      height: 18%;
+      position: fixed;
+      width: 100%;
+      margin-bottom: 20px;
+      line-height: 25px;
+   }
+   #navigator > li {
+      padding-left: -2%;
+      margin-right: 152px;
+      list-style-type: none;
+      margin-right: 10px;
+      font-family: Ubuntu, sans-serif;
+      display: inline;
+      text-shadow: 1px 1px 2px #042921;
+      font-size:  15px;
+   }
+ 
+   
+   #contactp>p {
+      position: absolute;
+      clear: both;
+      margin: 0;
+      padding: 0;
+      top: 11%;
+      font-family: Ubuntu, sans-serif;
+      font-size: 221%;
+      color: black;
+      text-align: center;
+   
+   }
+   
+   #fname,
+   #email,
+   #tel,#send {
+   
+      border-radius: 2px;
+      margin: 0 0 5%  0px;
+      color: white;
+      font-size: 50%;
+   }
+   
+   * #send {
+      background-color: #a3a3a3;
+      font-size: 120%;
+      border: 1px solid black;
+      border-radius: 2px;
+      color: white;
+      font-family: Ubuntu, sans-serif;
+   } 
+   
+   ::placeholder {
+      color: rgb(99, 99, 99);
+   }
  
 } 
 
- #fname,#email,#phone{
-   background: rgba(20, 156, 229, 0.6);
-    border-radius: 2px; 
-   margin-top: 220px;
-   border: 2px solid black;
-   color: white;
-   font-size: 120%;
- }
- #send{
-   background-color: #149ce5;
-   font-size: 130%;
-   border-radius: 2px; 
-   margin-top: 120px;
-   border: 2px solid black;
-   color: white;
-}
-}
-
-#contactp > p{
-   position: absolute;
-   margin-top: 1%;
-   padding: 0;
-   top: 11%;
-   font-family: Ubuntu, sans-serif;
-   font-size: 221%;
-   color: black;
-   text-align: center;
+/* For screens 600px and below*/
+@media screen and (min-width: 600px) {
+   nav {
+      height: 8%;
+      position: fixed;
+      width: 100%;
+      margin-bottom: 20px;
+      line-height: 25px;
+   }
+   #navigator > li {
+  
+      list-style-type: none;
+      margin-right: 30px;
+      font-family: Ubuntu, sans-serif;
+      display: inline;
+      text-shadow: 1px 1px 2px #042921;
+      font-size:  1em;
+   }
  
-} 
-
- #fname,#email,#phone{
-   background: rgba(20, 156, 229, 0.6);
-    border-radius: 2px; 
-   margin-top: 220px;
-   border: 2px solid black;
-   color: white;
-   font-size: 120%;
- }
- #send{
-   background-color: #149ce5;
-   font-size: 130%;
-   border-radius: 2px; 
-   margin-top: 120px;
-   border: 2px solid black;
-   color: white;
+   #contactp>p {
+      position: absolute;
+      clear: both;
+      margin: 0;
+      padding: 0;
+      top: 11%;
+      font-family: Ubuntu, sans-serif;
+      font-size: 221%;
+      color: black;
+      text-align: center;
+   
+   }
+   
+   #fname,
+   #email,
+   #tel,#send {
+   
+      border-radius: 2px;
+      margin: 0 0 5%  0px;
+      color: white;
+      font-size: 50%;
+   }
+   
+   * #send {
+      background-color: #a3a3a3;
+      font-size: 120%;
+      border: 1px solid black;
+      border-radius: 2px;
+      color: white;
+      font-family: Ubuntu, sans-serif;
+   } 
+   
+   ::placeholder {
+      color: rgb(99, 99, 99);
+   }
+    
 }
-::placeholder{
-   color: white;
-}
 
+ 
+
+
+
+
+ 
