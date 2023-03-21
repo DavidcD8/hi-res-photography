@@ -1,275 +1,431 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 * {
-   margin: 0;
-   padding: 0;
-   border: 0;
-}
-
-body {
-   background-color: white;
-}
-
-nav {
-   margin-bottom: 100%;
-   position: fixed;
-   background-color: #149ce5;
-   width: 100%;
-   height: 15%;
-   box-shadow: -1px 1px 2px #acacac;
-   z-index: 1;
-}
-
-#logo {
-   font-family: "Dancing Script", sans-serif;
-   font-size: 1.3em;
-   float: left;
-   color: white;
-   text-shadow: 1px 1px 2px rgb(189, 14, 224);
-}
-
-#logo,
-#navigator {
-   line-height: 45px;
-}
-
-#navigator>li {
-   list-style-type: none;
-   margin-right: 22px;
-   font-family: Ubuntu, sans-serif;
-   display: inline;
-   text-shadow: 1px 1px 2px #042921;
-   font-size: 17px;
-}
-
-#navigator a {
-   text-decoration: none;
-   color: white;
-
-}
-
-/* reposition the nav bar that shows reversed  */
-#navigator {
-   float: right;
-   
-}
-
-#navigator a:hover {
-   color: rgb(16, 128, 255);
-   background-color: #ffffff;
-   border-radius: 2px;
-   border-style: dashed;
-}
-
-.active {
-   background-color: #cfd1d1;
-   color: white;
-   border-radius: 2px;
-}
-
-footer {
-   background-color: #149ce5;
-   position: fixed;
-   box-shadow: 2px 2px #213a47;
-   bottom: 0;
-   width: 100%;
-   height: 50px;
-
-}
-
-.social-networks>li {
-   text-align: center;
-   display: inline;
-   padding: 4px;
-   font-size: 2rem;
-}
-
-.social-networks i {
-   text-align: center;
-   color: black;
-   text-shadow: 1px 1px 2px rgb(189, 14, 224);
-}
-
-.social-networks i:hover {
-   color: rgb(16, 255, 88);
-   background-color: rgb(31, 185, 240);
-   border-radius: 2px;
-   border-style: dashed;
+   box-sizing: border-box
 }
 
 
-#package1 {
-   padding: 22px 22px 22px 22px;
-   float: left;
-   clear: right;
-   font-family: Ubuntu, sans-serif;
-   height: 200px;
-   margin: 100px;
-   border-radius: 2px;
-   color: black;
-   font-size: 15px;
-   margin-left: 3px;
-}
 
-#package2 {
-   padding: 22px 22px 22px 22px;
-   position: absolute;
-   font-family: Ubuntu, sans-serif;
-   height: 200px;
-   margin-top: 100px;
-   margin-left: 430px;
-   color: black;
-   font-size: 15px;
-}
- 
- 
-#secondform{
-   position: absolute;
-   color: rgb(0, 0, 0);
-   display: block;
-   height: 163px;
-   margin: 10% 0 -100px 10px;
-   width: 765px;
-   font-family: Ubuntu, sans-serif;
-   font-size: 30px;
-   padding: -10% 0 0 0;
-}
-#secondformdiv{
-   position: absolute;
-   display: block;
-     background-color: rgba(66, 174, 233, .6);
-     height: 50%;
-     width: 20%;
-     margin: 10% 0 0 30px;
-     border-radius: 2px;
-     border: solid 1px black;
-}
-
- 
-
-
-
-/* For screens 1200px and below*/
-  @media screen and (max-width: 1200px) {
-   nav {
-      height: 18%;
+/* Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 600px) {
+   #logo {
+      text-shadow:2px 2px 2px rgb(28, 3, 59);
+      color: rgb(26, 215, 196);
       position: fixed;
+      font-size: 10px;
+      font-family: Courgette, sans-serif;
+      height: -20px;
+      float: left;
+      margin: -300% 0 0 0;
+      padding: 0 0 0 10px;
       width: 100%;
-      margin-bottom: 20px;
-      line-height: 25px;
+      background-color: #8f63fe;
    }
-   #navigator > li {
-      padding-left: -2%;
-      margin-right: 152px;
-      list-style-type: none;
-      margin-right: 10px;
-      font-family: Ubuntu, sans-serif;
-      display: inline;
-      text-shadow: 1px 1px 2px #042921;
-      font-size:  15px;
+
+   #navbar {
+      font-size: 12px;
+      background-color: rgba(2, 6, 52, 0.552);
+      width: 100%;
+      position: fixed;
+      margin: -287% 0 100px 0;
+      text-align: right;
+      box-shadow: -1px 1px 2px 2px #a6a6a6;
    }
- 
-   
-   #contactp>p {
-      position: absolute;
-      clear: both;
+
+   #navbar>a {
+      margin: 0 4px 0 0;
+      padding: 0 30px 0 0;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+   }
+
+   #navbar>a:hover {
+      color: rgba(119, 73, 237, 0.543);
+      text-decoration: none;
+      background-color: aliceblue;
+   }
+
+   .active {
+      border-bottom: 1px solid #3a3a3a;
+      font-size: 15px;
+      background-color: ;
+   }
+
+
+   body {
       margin: 0;
-      padding: 0;
-      top: 11%;
-      font-family: Ubuntu, sans-serif;
-      font-size: 221%;
-      color: black;
-      text-align: center;
-   
+      width: 100%;
+      overflow: inherit;
    }
-   
+
+   footer {
+      background-color: rgba(119, 73, 237, 0.543);
+      margin: 300% 0 -100% 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+   }
+
+   footer li {
+      display: inline;
+      color: white;
+   }
+
+   footer a {
+      color: white;
+      margin: 0 20px 0 0;
+   }
+
+   #package1 {
+      position: absolute;
+      background-color: rgba(119, 73, 237, 0.543);
+      margin: -260% 0 0 0;
+      border: 1px solid rgb(114, 113, 113);
+      border-radius: 1px;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+   }
+
+   #package2 {
+      margin: -170% 0 0 0;
+      position: absolute;
+      background-color: rgba(119, 73, 237, 0.543);
+      border: 1px solid rgb(114, 113, 113);
+      border-radius: 1px;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+   }
+
+   #contactp {
+      font-family: Ubuntu, sans-serif;
+      margin: -280% 0 0 0;
+      position: absolute;
+      font-size: 12px;
+      z-index: -1;
+   }
+
+   #secondform {
+      position: absolute;
+      width: 100%;
+      height: 40%;
+      background-color: rgba(119, 73, 237, 0.543);
+      margin: -240% 0 -400% 0;
+      border: 1px solid rgb(114, 113, 113);
+      border-radius: 1px;
+      z-index: -1;
+   }
+
    #fname,
    #email,
-   #tel,#send {
-   
-      border-radius: 2px;
-      margin: 0 0 5%  0px;
-      color: white;
-      font-size: 50%;
-   }
-   
-   * #send {
-      background-color: #a3a3a3;
-      font-size: 120%;
-      border: 1px solid black;
-      border-radius: 2px;
-      color: white;
-      font-family: Ubuntu, sans-serif;
-   } 
-   
-   ::placeholder {
-      color: rgb(99, 99, 99);
-   }
- 
-} 
+   #tel {
+      width: 90%;
 
-/* For screens 600px and below*/
-@media screen and (min-width: 600px) {
-   nav {
-      height: 8%;
-      position: fixed;
-      width: 100%;
-      margin-bottom: 20px;
-      line-height: 25px;
    }
-   #navigator > li {
-  
-      list-style-type: none;
-      margin-right: 30px;
-      font-family: Ubuntu, sans-serif;
-      display: inline;
-      text-shadow: 1px 1px 2px #042921;
-      font-size:  1em;
-   }
- 
-   #contactp>p {
-      position: absolute;
-      clear: both;
-      margin: 0;
-      padding: 0;
-      top: 11%;
-      font-family: Ubuntu, sans-serif;
-      font-size: 221%;
-      color: black;
+
+   #contacttable {
       text-align: center;
-   
+      width: 30%;
+      margin: 100% 0 0 35%;
+      position: absolute;
+      border: 1px solid#3a3a3a;
+      border-radius: 1px;
    }
-   
-   #fname,
-   #email,
-   #tel,#send {
-   
-      border-radius: 2px;
-      margin: 0 0 5%  0px;
-      color: white;
-      font-size: 50%;
+
+   #map {
+      width: 150px;
+      height: 400px;
+      margin: -130% 0 0 3%;
+      position: absolute;
    }
-   
-   * #send {
-      background-color: #a3a3a3;
-      font-size: 120%;
-      border: 1px solid black;
-      border-radius: 2px;
-      color: white;
-      font-family: Ubuntu, sans-serif;
-   } 
-   
-   ::placeholder {
-      color: rgb(99, 99, 99);
-   }
-    
 }
 
- 
 
 
 
 
- 
+
+@media only screen and (min-width: 600px) {
+   #logo {
+      position: fixed;
+      font-size: 12px;
+      font-family: Courgette;
+      height: -20px;
+      float: left;
+      margin: -15px 0 0 0;
+      padding: 0 0 0 10px;
+      width: 100%;
+      background-color: #7749ed8a;
+   }
+
+   #navbar {
+      font-size: 12px;
+      display: block;
+      background-color: rgba(2, 6, 52, 0.552);
+      width: 100%;
+      position: fixed;
+      margin: 40px 0 100px 0;
+      text-align: right;
+      box-shadow: -1px 1px 2px 2px #a6a6a6;
+   }
+
+   #navbar>a {
+      margin: 0 4px 0 0;
+      padding: 0 30px 0 0;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+   }
+
+   #navbar>a:hover {
+      color: rgba(119, 73, 237, 0.543);
+      text-decoration: none;
+      background-color: aliceblue;
+   }
+
+   .active {
+      border-bottom: 1px solid #3a3a3a;
+      font-size: 15px;
+      background-color: rgb(17, 165, 233);
+   }
+
+   body {
+      margin: 0;
+      width: 100%;
+
+
+   }
+
+   footer {
+      background-color: rgba(119, 73, 237, 0.543);
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+   }
+
+   footer li {
+      display: inline;
+      color: white;
+   }
+
+   footer a {
+      color: white;
+      margin: 0 20px 0 0;
+   }
+}
+
+@media only screen and (min-width: 992px) {
+   #logo {
+      position: fixed;
+      font-size: 12px;
+      font-family: Courgette;
+      height: -20px;
+      float: left;
+      margin: -15px 0 0 0;
+      padding: 0 0 0 10px;
+      width: 100%;
+      background-color: #7749ed8a;
+   }
+
+   #navbar {
+      font-size: 12px;
+      display: block;
+      background-color: rgba(2, 6, 52, 0.552);
+      width: 100%;
+      position: fixed;
+      margin: 40px 0 100px 0;
+      text-align: right;
+      box-shadow: -1px 1px 2px 2px #a6a6a6;
+   }
+
+   #navbar>a {
+      margin: 0 4px 0 0;
+      padding: 0 30px 0 0;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+   }
+
+   #navbar>a:hover {
+      color: rgba(119, 73, 237, 0.543);
+      text-decoration: none;
+      background-color: aliceblue;
+   }
+
+   .active {
+      border-bottom: 1px solid #3a3a3a;
+      font-size: 15px;
+      background-color: rgb(17, 165, 233);
+   }
+
+   body {
+      margin: 0;
+      width: 100%;
+
+
+   }
+
+   footer {
+      background-color: rgba(119, 73, 237, 0.543);
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+   }
+
+   footer li {
+      display: inline;
+      color: white;
+   }
+
+   footer a {
+      color: white;
+      margin: 0 20px 0 0;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   #logo {
+      position: fixed;
+      font-size: 12px;
+      font-family: Courgette;
+      height: -20px;
+      float: left;
+      margin: -15px 0 0 0;
+      padding: 0 0 0 10px;
+      width: 100%;
+      background-color: #7749ed8a;
+   }
+
+   #navbar {
+      font-size: 12px;
+      display: block;
+      background-color: rgba(2, 6, 52, 0.552);
+      width: 100%;
+      position: fixed;
+      margin: 40px 0 100px 0;
+      text-align: right;
+      box-shadow: -1px 1px 2px 2px #a6a6a6;
+   }
+
+   */ #navbar>a {
+      margin: 0 4px 0 0;
+      padding: 0 30px 0 0;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+   }
+
+   #navbar>a:hover {
+      color: rgba(119, 73, 237, 0.543);
+      text-decoration: none;
+      background-color: aliceblue;
+   }
+
+   .active {
+      border-bottom: 1px solid #3a3a3a;
+      font-size: 15px;
+      background-color: rgb(17, 165, 233);
+   }
+
+   body {
+      margin: 0;
+      width: 100%;
+
+
+   }
+
+   footer {
+      background-color: rgba(119, 73, 237, 0.543);
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+   }
+
+   footer li {
+      display: inline;
+      color: white;
+   }
+
+   footer a {
+      color: white;
+      margin: 0 20px 0 0;
+   }
+}
+
+@media only screen and (min-width: 1200px) {
+   #logo {
+      position: fixed;
+      font-size: 12px;
+      font-family: Courgette;
+      height: -20px;
+      float: left;
+      margin: -15px 0 0 0;
+      padding: 0 0 0 10px;
+      width: 100%;
+      background-color: #7749ed8a;
+   }
+
+   #navbar {
+      font-size: 12px;
+      display: block;
+      background-color: rgba(2, 6, 52, 0.552);
+      width: 100%;
+      position: fixed;
+      margin: 40px 0 100px 0;
+      text-align: right;
+      box-shadow: -1px 1px 2px 2px #a6a6a6;
+   }
+
+   #navbar>a {
+      margin: 0 4px 0 0;
+      padding: 0 30px 0 0;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+   }
+
+   #navbar>a:hover {
+      color: rgba(119, 73, 237, 0.543);
+      text-decoration: none;
+      background-color: aliceblue;
+   }
+
+   .active {
+      border-bottom: 1px solid #3a3a3a;
+      font-size: 15px;
+      background-color: rgb(17, 165, 233);
+   }
+
+   body {
+      margin: 0;
+      width: 100%;
+
+
+   }
+
+   footer {
+      background-color: rgba(119, 73, 237, 0.543);
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      color: white;
+   }
+
+   footer li {
+      display: inline;
+      color: white;
+   }
+
+   footer a {
+      color: white;
+      margin: 0 20px 0 0;
+   }
+}
