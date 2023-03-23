@@ -26,7 +26,7 @@
    position: fixed;
    margin: -70px 0 0 0;
    text-align: right;
-   box-shadow: -1px 1px 2px 2px #a6a6a6;
+   box-shadow: -1px 1px 5px 2px #86e1f7b3;
 }
 
 #navbar>a {
@@ -176,7 +176,7 @@ footer a {
 
 
 /*portrait tablets and large phones*/
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
    .backgroundhome {
       background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
       background-position: center;
@@ -280,12 +280,114 @@ footer a {
       width: 500px !important;
 
    } 
-}
+} */
 
 /*landscape tablets*/
-@media only screen and (min-width: 768px) {
-   
-}
+/* @media only screen and (min-width: 768px) {
+   .backgroundhome {
+      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
+      background-position: center;
+
+   }
+
+   #hometext {
+      font-family: Ubuntu, sans-serif;
+      background-color: rgba(119, 73, 237, 0.543);
+      color: rgb(255, 255, 255);
+      text-shadow: 1px 1px rgb(8, 172, 209);
+      padding: 10px 0 222px 2px;
+      text-align: center;
+      font-size: 20px;
+      width: 70%;
+      height: 516px;
+      margin: 0px 0px 0px 124px;
+   }
+
+   #images {
+      width: 90% important;
+      height: 10% important;
+      margin: 120px 0 0 0;
+      z-index: -1;
+      padding: 8px 0 205px 34px;
+   }
+
+   #images>img {
+      width: 30%;
+      margin: 0 0 -5% 2%;
+   }
+
+
+   #package1 {
+      height: 310px;
+      width: 512px;
+      margin: 0 0 110px 200px;
+      background-color: rgba(119, 73, 237, 0.543);
+      border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
+      font-size: 19px;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+   }
+
+   #package2 {
+      height: 310px;
+      width: 512px;
+      margin: -100px 0 -200px 200px;
+      background-color: rgba(119, 73, 237, 0.543);
+      border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
+      font-size: 19px;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+   }
+
+   #contactp {
+      font-family: Ubuntu, sans-serif;
+      margin: -50px 0 0 190px;
+      font-size: 15px;
+      z-index: -1;
+      position: absolute;
+   }
+
+   #secondform {
+      padding: 0 0 0 10px;
+      width: 60%;
+      height: 260px;
+      background-color: rgba(119, 73, 237, 0.543);
+      margin: 20px 0 0 190px;
+      border-radius: 14px;
+      border: solid 2px rgb(26, 215, 196);
+      z-index: -1;
+      position: absolute;
+   }
+
+   #fname,
+   #email,
+   #tel {
+      width: 70%;
+
+   }
+
+   #contacttable {
+      text-align: center;
+      width: 60%;
+      margin: 300px 0 0 140px;
+      font-size: 15px;
+      border: 1px solid#3a3a3a;
+      border-radius: 1px;
+      position: absolute;
+   }
+
+   #map {
+      margin: 400px 0 0 290px;
+      position: absolute;
+   }
+
+   #map>iframe {
+      width: 500px !important;
+
+   }
+} */
 
 /* desktops and laptops*/
 @media only screen and (min-width: 992px) {}
@@ -296,7 +398,7 @@ footer a {
 
 
 /*For desktops Displays 1200px and down*/
- /*@media only screen and (min-width: 1200px) {
+/*@media only screen and (min-width: 1200px) {
    .backgroundhome {
       background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
       background-position: center;
