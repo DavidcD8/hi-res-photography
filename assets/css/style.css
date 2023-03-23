@@ -51,6 +51,7 @@
 body {
    margin: 120px 0px 0px 0;
    width: 100%;
+
 }
 
 footer {
@@ -110,7 +111,8 @@ footer a {
       width: 320px;
       background-color: rgba(119, 73, 237, 0.543);
       margin: 120px 0 151px 30px;
-      border-radius: 1px;
+       border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
       font-size: 12px;
       font-family: Ubuntu, sans-serif;
       z-index: -1;
@@ -122,7 +124,8 @@ footer a {
       width: 320px;
       margin: -87px 0 0 30px;
       background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 1px;
+       border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
       font-size: 12px;
       font-family: Ubuntu, sans-serif;
       z-index: -1;
@@ -172,18 +175,117 @@ footer a {
 
 
 
-@media only screen and (min-width: 600px) {
-    
-}
+@media only screen and (min-width: 600px) {}
 
-@media only screen and (min-width: 992px) {
- 
-}
+@media only screen and (min-width: 992px) {}
 
-@media only screen and (min-width: 768px) {
-   
-}
+@media only screen and (min-width: 768px) {}
 
+
+
+
+/*For desktops Displays 1200px and down*/
 @media only screen and (min-width: 1200px) {
-  
+   .backgroundhome {
+      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
+      background-position: center;
+
+   }
+
+   #hometext {
+      font-family: Ubuntu, sans-serif;
+      background-color: rgba(119, 73, 237, 0.543);
+      color: rgb(255, 255, 255);
+      text-shadow: 1px 1px rgb(8, 172, 209);
+      padding: 10px 0 222px 9px;
+      text-align: center;
+      font-size: 1em;
+      width: 50%;
+      height: 416px;
+      margin: 0px 0px 0px 324px;
+   }
+
+   #images {
+      width: 90% important;
+      height: 10% important;
+      margin: 120px 0 0 0;
+      z-index: -1;
+      padding: 8px 0 205px 134px;
+   }
+
+   #images>img {
+      width: 30%;
+      margin: 0 0 -5% 2%;
+   }
+
+
+   #package1 {
+      height: 600px;
+      width: 512px;
+      margin: 0 0 100px 200px;
+      background-color: rgba(119, 73, 237, 0.543);
+      border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
+      font-size: 2em;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+   }
+
+   #package2 {
+      height: 600px;
+      width: 512px;
+      margin: -700px 0 0 950px;
+      background-color: rgba(119, 73, 237, 0.543);
+      border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
+      font-size: 2em;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+   }
+
+   #contactp {
+      font-family: Ubuntu, sans-serif;
+      margin: 10px 0 0 400px;
+      font-size: 15px;
+      z-index: -1;
+      position: absolute;
+   }
+
+   #secondform {
+      padding: 0 0 0 10px;
+      width: 40%;
+      height: 260px;
+      background-color: rgba(119, 73, 237, 0.543);
+      margin: 100px 0 0 400px;
+      border-radius: 1px;
+      z-index: -1;
+      position: absolute;
+   }
+
+   #fname,
+   #email,
+   #tel {
+      width: 70%;
+
+   }
+
+   #contacttable {
+      text-align: center;
+      width: 60%;
+      margin: 290px 0 0 100px;
+      font-size: 15px;
+      border: 1px solid#3a3a3a;
+      border-radius: 1px;
+      position: absolute;
+   }
+
+   #map {
+      margin: 500px 0 0 460px;
+      position: absolute;
+   }
+
+   #map>iframe {
+      width: 500px !important;
+
+   }
 }
