@@ -390,7 +390,113 @@ footer a {
 } */
 
 /* desktops and laptops*/
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+   .backgroundhome {
+      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
+      background-position: center;
+
+   }
+
+   #hometext {
+      font-family: Ubuntu, sans-serif;
+      background-color: rgba(119, 73, 237, 0.543);
+      color: rgb(255, 255, 255);
+      text-shadow: 1px 1px rgb(8, 172, 209);
+      padding: 2px 2px 0 2px;
+      text-align: center;
+      font-size: 19px;
+      width: 75%;
+      height: 500px;
+      margin: 0px 0px 0px 124px;
+   }
+
+   #images {
+      width: 90% important;
+      height: 10% important;
+      margin: 120px 0 0 0;
+      z-index: -1;
+      padding: 8px 0 205px 34px;
+   }
+
+   #images>img {
+      width: 30%;
+      margin: 0 0 -5% 2%;
+   }
+
+
+   #package1 {
+      height: 300px;
+      width: 412px;
+      margin: 50px 0 110px 200px;
+      background-color: rgba(119, 73, 237, 0.543);
+      border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
+      font-size: 18px;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+      position: absolute;
+   }
+
+   #package2 {
+      height: 300px;
+      width: 412px;
+      margin: 50px 0 -200px 650px;
+      background-color: rgba(119, 73, 237, 0.543);
+      border-radius: 19px;
+      border: solid 2px rgb(26, 215, 196);
+      font-size: 18px;
+      font-family: Ubuntu, sans-serif;
+      z-index: -1;
+      position: absolute;
+   }
+
+   #contactp {
+      font-family: Ubuntu, sans-serif;
+      margin: -50px 0 0 270px;
+      font-size: 14px;
+      z-index: -1;
+      position: absolute;
+   }
+
+   #secondform {
+      padding: 0 0 0 30px;
+      width: 40%;
+      height: 260px;
+      background-color: rgba(119, 73, 237, 0.543);
+      margin: 60px 0 0 360px;
+      border-radius: 14px;
+      border: solid 2px rgb(26, 215, 196);
+      z-index: -1;
+      position: absolute;
+   }
+
+   #fname,
+   #email,
+   #tel {
+      width: 70%;
+
+   }
+
+   #contacttable {
+      text-align: center;
+      width: 60%;
+      margin: 320px 0 0 150px;
+      font-size: 15px;
+      border: 1px solid#3a3a3a;
+      border-radius: 1px;
+      position: absolute;
+   }
+
+   #map {
+      margin: 420px 0 0 370px;
+      position: absolute;
+   }
+
+   #map>iframe {
+      width: 500px !important;
+
+   }
+}
 
 
 
