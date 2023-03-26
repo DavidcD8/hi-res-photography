@@ -157,9 +157,11 @@ footer a {
       width: 80%;
       margin: 0 0 -220px 0;
    }
-#send{
-   margin: 0 10px -10px 0;
-}
+
+   #send {
+      margin: 0 10px -10px 0;
+   }
+
    #contacttable {
       text-align: center;
       width: 30%;
@@ -167,7 +169,7 @@ footer a {
       font-size: 7px;
       border: 1px solid#3a3a3a;
       border-radius: 1px;
-    
+
    }
 
    #map {
@@ -337,7 +339,7 @@ footer a {
    #package2 {
       height: 310px;
       width: 512px;
-      margin:  200px 0 -200px 150px;
+      margin: 200px 0 -200px 150px;
       background-color: rgba(119, 73, 237, 0.543);
       border-radius: 19px;
       border: solid 2px rgb(26, 215, 196);
@@ -719,6 +721,7 @@ footer a {
 
    }
 }
+
 /*For 1080 resolution display*/
 @media only screen and (min-width: 1450px) {
    .backgroundhome {
@@ -789,11 +792,11 @@ footer a {
    }
 
    #secondform {
-      padding: 0 10px 0 10px;
-      width: 30%;
-      height: 260px;
+      padding: 10px 10px 0 10px;
+      width: 20%;
+      height: 270px;
       background-color: rgba(119, 73, 237, 0.543);
-      margin: 40px 0 0 650px;
+      margin: 40px 0 0 750px;
       border-radius: 14px;
       border: solid 2px rgb(26, 215, 196);
       z-index: -1;
@@ -818,12 +821,12 @@ footer a {
    }
 
    #map {
-      margin: 400px 0 0 500px;
+      margin: 400px 0 0 550px;
       position: absolute;
    }
 
    #map>iframe {
-      width: 900px !important;
-      height: 500px !important;
+      width: 800px !important;
+      height: 400px !important;
    }
 }
