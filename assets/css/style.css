@@ -54,6 +54,12 @@ body {
 
 }
 
+.backgroundhome {
+   background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
+   background-position: center;
+
+}
+
 footer {
    background-color: rgba(119, 73, 237, 0.543);
    margin: 0 0 0 0;
@@ -78,11 +84,7 @@ footer a {
 
 /* Extra small devices (phones, 600px and down)*/
 @media only screen and (max-width: 600px) {
-   .backgroundhome {
-      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-      background-position: center;
 
-   }
 
    #hometext {
       font-family: Ubuntu, sans-serif;
@@ -184,11 +186,7 @@ footer a {
 
 /*portrait tablets and large phones*/
 @media only screen and (min-width: 600px) {
-   .backgroundhome {
-      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-      background-position: center;
 
-   }
 
    #hometext {
       font-family: Ubuntu, sans-serif;
@@ -291,11 +289,6 @@ footer a {
 
 /*landscape tablets*/
 @media only screen and (min-width: 768px) {
-   .backgroundhome {
-      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-      background-position: center;
-
-   }
 
    #hometext {
       font-family: Ubuntu, sans-serif;
@@ -398,11 +391,7 @@ footer a {
 
 /* Small Displays 320px*/
 @media only screen and (max-width:320px) {
-   .backgroundhome {
-      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-      background-position: center;
 
-   }
 
    #hometext {
       font-family: Ubuntu, sans-serif;
@@ -505,11 +494,7 @@ footer a {
 }
 
 @media only screen and (min-width: 992px) {
-   .backgroundhome {
-      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-      background-position: center;
 
-   }
 
    #hometext {
       font-family: Ubuntu, sans-serif;
@@ -615,11 +600,7 @@ footer a {
 
 /*For desktops Displays 1200px and down*/
 @media only screen and (min-width: 1200px) {
-   .backgroundhome {
-      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-      background-position: center;
 
-   }
 
    #hometext {
       font-family: Ubuntu, sans-serif;
@@ -724,11 +705,7 @@ footer a {
 
 /*For 1080 resolution display*/
 @media only screen and (min-width: 1450px) {
-   .backgroundhome {
-      background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-      background-position: center;
 
-   }
 
    #hometext {
       font-family: Ubuntu, sans-serif;
