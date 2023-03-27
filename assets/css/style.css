@@ -218,9 +218,9 @@ footer a {
 
 
    #package1 {
-      height: 600px;
+      height: 400px;
       width: 512px;
-      margin: 0 0 100px 200px;
+      margin: 0 0 0 90px;
       background-color: rgba(119, 73, 237, 0.543);
       border-radius: 19px;
       border: solid 2px rgb(26, 215, 196);
@@ -232,7 +232,7 @@ footer a {
    #package2 {
       height: 400px;
       width: 512px;
-      margin: 100px 0 0 200px;
+      margin: 40px 0 0 90px;
       background-color: rgba(119, 73, 237, 0.543);
       border-radius: 19px;
       border: solid 2px rgb(26, 215, 196);
@@ -339,7 +339,7 @@ footer a {
    #package2 {
       height: 310px;
       width: 512px;
-      margin: 200px 0 -200px 150px;
+      margin: 0 0 -200px 150px;
       background-color: rgba(119, 73, 237, 0.543);
       border-radius: 19px;
       border: solid 2px rgb(26, 215, 196);
