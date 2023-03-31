@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
+
 * {
-   box-sizing: border-box
+   margin: 0;
+   padding: 0;
 }
 
 #logo {
@@ -11,22 +13,24 @@
    position: fixed;
    font-size: 10px;
    font-family: Courgette, sans-serif;
-   height: 51px;
-   float: left;
-   margin: -121px 0 0 0;
-   padding: 0 0 0 10px;
+   height: 30px;
+   top: 0;
+   padding: 5px;
    width: 100%;
    background-color: #8f63fe;
+
 }
 
 #navbar {
-   font-size: 12px;
+   font-size: 16px;
    background-color: rgba(2, 6, 52, 0.552);
    width: 100%;
    position: fixed;
-   margin: -70px 0 0 0;
+   margin-top: 40px;
+   top: 0;
    text-align: right;
-   box-shadow: -1px 1px 5px 2px #86e1f7b3;
+   box-shadow: -1px 1px 5px 1px #86e1f7b3;
+
 }
 
 #navbar>a {
@@ -47,11 +51,36 @@
    background-color: #9c79f6;
 }
 
+#images {
+   margin-top: 140px;
+}
 
-body {
-   margin: 120px 0px 0px 0;
-   width: 100%;
+.img {
+   column-count: 5;
+   margin: 0 auto;
+   display: flexbox;
+   width: 400px;
+   height: 400px;
+}
 
+
+/*styles  the text on the home page*/
+#hometext {
+   width: 50%;
+   padding: 30px;
+   margin: auto;
+   position: relative;
+   font-family: Ubuntu, sans-serif;
+   background-color: rgba(2, 6, 52, 0.552);
+   color: rgb(255, 255, 255);
+   text-shadow: 1px 1px rgba(119, 73, 237, 0.543);
+   z-index: -1;
+   border: solid 2px rgb(26, 215, 196);
+   bottom: 20px;
+}
+
+#hometext>p {
+   padding: 20px;
 }
 
 .backgroundhome {
@@ -60,750 +89,276 @@ body {
 
 }
 
-footer {
-   background-color: rgba(119, 73, 237, 0.543);
-   margin: 0 0 0 0;
+body {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   margin: 120px 0px 0px 0;
    width: 100%;
+}
+
+
+
+footer {
+   margin-top: auto;
+   background-color: rgba(2, 6, 52, 0.552);
    text-align: center;
+   color: #ffffff;
+   height: 30px;
+}
+
+footer a {
    color: white;
-   position: fixed;
-   bottom: 0;
+
+}
+
+footer>ul {
+   list-style-type: none;
+   margin: 5px;
 }
 
 footer li {
    display: inline;
    color: white;
+   margin: 20px;
+
+
 }
 
-footer a {
+#pricetextdiv {
+   bottom: 30px;
+   position: relative;
+   margin: 0 auto;
+   font-family: Verdana, Ubuntu;
+   display: flex;
+   align-items: end;
+   font-size: 20px;
+   z-index: -1;
+}
+
+#plans {
+   background-color: rgba(2, 6, 52, 0.552);
+   border-radius: 4px;
+   border: solid 2px rgb(26, 215, 196);
+   padding: 10px;
+   width: 500px;
+   justify-content: center;
+   margin: 0 auto;
+   position: relative;
+   display: flexbox;
+   bottom: 20px;
+   z-index: -1;
+}
+
+#plans ul {
+   background-color: rgba(119, 73, 237, 0.543);
+   border-radius: 4px;
+   border: solid 2px rgb(26, 215, 196);
+   padding: 25px;
+   margin: 0 auto;
+   margin: 5px;
+   display: flexbox;
    color: white;
-   margin: 0 20px 0 0;
 
 }
 
+#contactp>h1 {
+   bottom: 51px;
+   text-align: center;
+   position: relative;
+   margin: auto;
+   font-family: Verdana, Ubuntu;
+   font-size: 30px;
+   z-index: -1;
+}
 
-/* Extra small devices (phones, 600px and down)*/
+#contacttable {
+   border: 1px dashed;
+   align-self: center;
+   margin: 0 auto;
+   margin-bottom: 10px;
+}
+
+#secondformdiv {
+   background-color: rgba(2, 6, 52, 0.552);
+   margin: 0 auto;
+   margin-bottom: 10px;
+   padding: 8px 8px 8px 8px;
+   width: 480px;
+   border: solid 1px aquamarine;
+   border-radius: 6px;
+   color: white;
+}
+
+
+#tel,
+#fname,
+#email {
+   width: 300px;
+}
+
+#map {
+   align-self: center;
+   margin-top: auto;
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+   #hometext {
+      font-size: 1.2em;
+      width: 500px;
+      height: 50%;
+      top: 20%;
+      margin: auto;
+      align-self: center;
+
+   }
+
+   .img {
+      display: flex;
+      margin: 0 0 30px 0;
+      padding: -200px 0 0 0;
+   }
+
+
+
+
+   #map {
+      align-self: center;
+      clear: both;
+      float: right;
+      margin: 0 auto;
+
+   }
+
+
+   #contacttable {
+
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+
+   }
+
+
+}
+
+@media screen and (max-width: 950px) {
+
+   #navbar {
+      margin-bottom: 20px;
+      line-height: 25px;
+
+   }
+
+
+}
+
 @media only screen and (max-width: 600px) {
-
-
    #hometext {
-      font-family: Ubuntu, sans-serif;
-      background-color: rgba(119, 73, 237, 0.543);
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px rgb(8, 172, 209);
+      width: 90%;
+      bottom: 50px;
+      padding: 2px;
    }
 
-   #images {
+}
+
+@media screen and (max-width: 500px) {
+   #plans {
+      font-size: 15px;
+      width: 300px;
+      margin: 0 auto;
+      padding: 0;
+   }
+
+   footer {
+      position: fixed;
+      bottom: 0;
       width: 100%;
-      height: 40%;
-      margin: 120px 0 0 0;
-      z-index: -1;
-
+      margin: 0 auto;
    }
 
-   #images>img {
-      width: 30%;
-      margin: 0 0 -5% 2%;
-   }
-
-
-   #package1 {
-      padding: 1px 0 0 0;
-      height: 225px;
-      width: 320px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: 120px 0 151px 30px;
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 12px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-   }
-
-   #package2 {
-      padding: 1px 0 0 0;
-      height: 225px;
-      width: 320px;
-      margin: -107px 0 0 30px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 12px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-   }
-
-   #contactp {
-      font-family: Ubuntu, sans-serif;
-      margin: -50px 0 171px 0;
-      font-size: 5px;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #secondform {
-      padding: 0 0 0 20px;
-      position: absolute;
-      width: 60%;
-      height: 270px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: -20px 0 -400% 79px;
-      border-radius: 14px;
-      border: solid 2px rgb(26, 215, 196);
-      z-index: -1;
-   }
-
-   #fname,
-   #email,
-   #tel {
-      width: 80%;
-      margin: 0 0 -220px 0;
-   }
-
-   #send {
-      margin: 0 10px -10px 0;
-   }
-
-   #contacttable {
-      text-align: center;
-      width: 30%;
-      margin: 290px 0 -164px 150px;
-      font-size: 7px;
-      border: 1px solid#3a3a3a;
-      border-radius: 1px;
-
-   }
 
    #map {
-      margin: 295px 0 0 60px;
-      position: absolute;
-   }
-}
+      align-self: center;
+      margin: 0 auto;
+      width: 300px;
+      padding-left: 8px;
 
-
-
-
-
-/*portrait tablets and large phones*/
-@media only screen and (min-width: 600px) {
-
-
-   #hometext {
-      font-family: Ubuntu, sans-serif;
-      background-color: rgba(119, 73, 237, 0.543);
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px rgb(8, 172, 209);
-      padding: 10px 0 222px 9px;
-      text-align: center;
-      font-size: 20px;
-      width: 70%;
-      height: 716px;
-      margin: 0px 0px 0px 124px;
-   }
-
-   #images {
-      width: 90%;
-      height: 10%;
-      margin: 120px 0 0 0;
-      z-index: -1;
-      padding: 8px 0 205px 34px;
-   }
-
-   #images>img {
-      width: 30%;
-      margin: 0 0 -5% 2%;
-   }
-
-
-   #package1 {
-      height: 400px;
-      width: 512px;
-      margin: 0 0 0 90px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 22px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-   }
-
-   #package2 {
-      height: 400px;
-      width: 512px;
-      margin: 40px 0 0 90px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 22px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-   }
-
-   #contactp {
-      font-family: Ubuntu, sans-serif;
-      margin: 10px 0 0 50px;
-      font-size: 15px;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #secondform {
-      padding: 0 0 0 10px;
-      width: 60%;
-      height: 260px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: 100px 0 0 150px;
-      border-radius: 14px;
-      border: solid 2px rgb(26, 215, 196);
-      z-index: -1;
-      position: absolute;
-   }
-
-   #fname,
-   #email,
-   #tel {
-      width: 70%;
-
-   }
-
-   #contacttable {
-      text-align: center;
-      width: 60%;
-      margin: 300px 0 0 140px;
-      font-size: 15px;
-      border: 1px solid#3a3a3a;
-      border-radius: 1px;
-      position: absolute;
-   }
-
-   #map {
-      margin: 500px 0 0 160px;
-      position: absolute;
    }
 
    #map>iframe {
-      width: 500px !important;
-
-   }
-}
-
-/*landscape tablets*/
-@media only screen and (min-width: 768px) {
-
-   #hometext {
-      font-family: Ubuntu, sans-serif;
-      background-color: rgba(119, 73, 237, 0.543);
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px rgb(8, 172, 209);
-      padding: 10px 0 222px 2px;
-      text-align: center;
-      font-size: 20px;
-      width: 70%;
-      height: 616px;
-      margin: 0px 0px 0px 124px;
-   }
-
-   #images {
-      width: 90%;
-      height: 10%;
-      margin: 120px 0 0 0;
-      z-index: -1;
-      padding: 8px 0 205px 34px;
-   }
-
-   #images>img {
-      width: 30%;
-      margin: 0 0 -5% 2%;
-   }
-
-
-   #package1 {
-      height: 310px;
-      width: 512px;
-      margin: 0 0 110px 150px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 19px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-   }
-
-   #package2 {
-      height: 310px;
-      width: 512px;
-      margin: 0 0 -200px 150px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 19px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-   }
-
-   #contactp {
-      font-family: Ubuntu, sans-serif;
-      margin: -50px 0 0 50px;
-      font-size: 15px;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #secondform {
-      padding: 0 0 0 20px;
-      width: 60%;
-      height: 260px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: 20px 0 0 160px;
-      border-radius: 14px;
-      border: solid 2px rgb(26, 215, 196);
-      z-index: -1;
-      position: absolute;
-   }
-
-   #fname,
-   #email,
-   #tel {
-      width: 70%;
+      width: 300px;
+      height: 200px;
+      margin-bottom: 20px;
 
    }
 
    #contacttable {
-      text-align: center;
-      width: 60%;
-      margin: 300px 0 0 140px;
-      font-size: 15px;
-      border: 1px solid#3a3a3a;
-      border-radius: 1px;
-      position: absolute;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
    }
 
+   #secondformdiv {
+      margin: 0 auto;
+      width: 300px;
+      margin-bottom: 2px;
+      padding: 8px 8px 8px 8px;
+
+
+   }
+
+
+}
+
+@media screen and (max-width: 360px) {
+
    #map {
-      margin: 400px 0 0 150px;
-      position: absolute;
+      align-self: center;
+      margin: 0 auto;
+      padding: 10px 10px 10px 10px;
+
    }
 
    #map>iframe {
-      width: 500px !important;
-
+      width: 300px;
+      height: 200px;
+      margin-bottom: 20px;
    }
+
 }
 
-/* Small Displays 320px*/
-@media only screen and (max-width:320px) {
-
-
-   #hometext {
-      font-family: Ubuntu, sans-serif;
-      background-color: rgba(119, 73, 237, 0.543);
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px rgb(8, 172, 209);
-      padding: 2px 2px 0 2px;
-      text-align: center;
-      font-size: 11px;
-      width: 75%;
-      height: 360px;
-      margin: 0 0 0 40px;
-   }
-
-   #images {
-      width: 90%;
-      height: 10%;
-      margin: 120px 0 0 0;
-      z-index: -1;
-      padding: 8px 0 205px 34px;
-   }
-
-   #images>img {
-      width: 30%;
-      margin: 0 0 -5% 2%;
-   }
-
-
-   #package1 {
-      height: 200px;
-      width: 232px;
-      margin: -20px 0 0 50px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 11px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #package2 {
-      height: 200px;
-      width: 232px;
-      margin: 190px 0 0 50px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 11px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #contactp {
-      font-family: Ubuntu, sans-serif;
-      margin: -50px 0 0 10px;
-      font-size: 5px;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #secondform {
-      padding: 0 0 0 30px;
-      width: 70%;
-      height: 200px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: -20px 0 0 50px;
-      border-radius: 14px;
-      border: solid 2px rgb(26, 215, 196);
-      z-index: -1;
-      position: absolute;
+@media screen and (max-width: 320px) {
+   #pricetextdiv {
       font-size: 10px;
+      bottom: 50px;
    }
 
-   #fname,
-   #email,
-   #tel {
-      width: 70%;
+   #plans {
+      font-size: 15px;
+      width: 260px;
+      margin: 0 auto;
+      padding: 0;
+      bottom: 40px;
    }
-
-   #contacttable {
-      text-align: center;
-      width: 60%;
-      margin: 220px 0 0 70px;
-      font-size: 8px;
-      border: 1px solid#3a3a3a;
-      border-radius: 1px;
-      position: absolute;
-   }
-
-   #map {
-      margin: 240px 0 0 40px;
-   }
-
-   #map>iframe {
-      width: 240px !important;
-      height: 150px !important;
-   }
-}
-
-@media only screen and (min-width: 992px) {
-
 
    #hometext {
-      font-family: Ubuntu, sans-serif;
-      background-color: rgba(119, 73, 237, 0.543);
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px rgb(8, 172, 209);
-      padding: 2px 2px 0 2px;
+      font-size: 10px;
+      padding-left: 2px;
+      padding: 2px 2px 0 0;
       text-align: center;
-      font-size: 19px;
-      width: 75%;
-      height: 500px;
-      margin: 0px 0px 0px 124px;
+      width: 240px;
+      height: 360px;
+      margin: 0 auto;
+      top: 5px;
    }
 
-   #images {
+   #contactp>h1 {
+      left: 1px;
       width: 90%;
-      height: 10%;
-      margin: 120px 0 0 0;
-      z-index: -1;
-      padding: 8px 0 205px 34px;
-   }
-
-   #images>img {
-      width: 30%;
-      margin: 0 0 -5% 2%;
-   }
-
-
-   #package1 {
-      height: 300px;
-      width: 412px;
-      margin: 50px 0 110px 100px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 18px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #package2 {
-      height: 300px;
-      width: 412px;
-      margin: 50px 0 -200px 550px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 18px;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #contactp {
-      font-family: Ubuntu, sans-serif;
-      margin: -50px 0 0 100px;
-      font-size: 14px;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #secondform {
-      padding: 0 0 0 30px;
-      width: 40%;
-      height: 260px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: 30px 0 0 260px;
-      border-radius: 14px;
-      border: solid 2px rgb(26, 215, 196);
-      z-index: -1;
-      position: absolute;
-   }
-
-   #fname,
-   #email,
-   #tel {
-      width: 70%;
-
-   }
-
-   #contacttable {
-      text-align: center;
-      width: 60%;
-      margin: 280px 0 0 150px;
-      font-size: 15px;
-      border: 1px solid#3a3a3a;
-      border-radius: 1px;
-      position: absolute;
-   }
-
-   #map {
-      margin: 380px 0 0 250px;
-      position: absolute;
-   }
-
-   #map>iframe {
-      width: 500px !important;
-
-   }
-}
-
-
-/*For desktops Displays 1200px and down*/
-@media only screen and (min-width: 1200px) {
-
-
-   #hometext {
-      font-family: Ubuntu, sans-serif;
-      background-color: rgba(119, 73, 237, 0.543);
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px rgb(8, 172, 209);
-      padding: 10px 0 222px 9px;
-      text-align: center;
-      font-size: 1em;
-      width: 50%;
-      height: 416px;
-      margin: 0px 0px 0px 324px;
-   }
-
-   #images {
-      width: 90%;
-      height: 10%;
-      margin: 120px 0 0 0;
-      z-index: -1;
-      padding: 8px 0 205px 134px;
-   }
-
-   #images>img {
-      width: 30%;
-      margin: 0 0 -5% 2%;
-   }
-
-
-   #package1 {
-      height: 300px;
-      width: 512px;
-      margin: 50px 0 100px 100px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 1em;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #package2 {
-      height: 300px;
-      width: 512px;
-      margin: 50px 0 0 650px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 1em;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #contactp {
-      font-family: Ubuntu, sans-serif;
-      margin: -70px 0 0 300px;
-      font-size: 15px;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #secondform {
-      padding: 0 10px 0 10px;
-      width: 30%;
-      height: 260px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: 0 0 0 150px;
-      border-radius: 14px;
-      border: solid 2px rgb(26, 215, 196);
-      z-index: -1;
-      position: absolute;
-   }
-
-   #fname,
-   #email,
-   #tel {
-      width: 70%;
-
-   }
-
-   #contacttable {
-      text-align: center;
-      width: 60%;
-      margin: 260px 0 0 380px;
-      font-size: 15px;
-      border: 1px solid#3a3a3a;
-      border-radius: 1px;
-      position: absolute;
-   }
-
-   #map {
-      margin: 20px 0 0 680px;
-      position: absolute;
-   }
-
-   #map>iframe {
-      width: 500px !important;
-
-   }
-}
-
-/*For 1080 resolution display*/
-@media only screen and (min-width: 1450px) {
-
-
-   #hometext {
-      font-family: Ubuntu, sans-serif;
-      background-color: rgba(119, 73, 237, 0.543);
-      color: rgb(255, 255, 255);
-      text-shadow: 1px 1px rgb(8, 172, 209);
-      padding: 10px 0 222px 9px;
-      text-align: center;
-      font-size: 1em;
-      width: 50%;
-      height: 416px;
-      margin: 0px 0px 0px 324px;
-   }
-
-   #images {
-      width: 90%;
-      height: 10%;
-      margin: 120px 0 0 0;
-      z-index: -1;
-      padding: 8px 0 205px 134px;
-   }
-
-   #images>img {
-      width: 30%;
-      margin: 0 0 -5% 2%;
-   }
-
-
-   #package1 {
-      height: 300px;
-      width: 512px;
-      margin: 50px 0 100px 100px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 1em;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #package2 {
-      height: 300px;
-      width: 512px;
-      margin: 50px 0 0 650px;
-      background-color: rgba(119, 73, 237, 0.543);
-      border-radius: 19px;
-      border: solid 2px rgb(26, 215, 196);
-      font-size: 1em;
-      font-family: Ubuntu, sans-serif;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #contactp {
-      font-family: Ubuntu, sans-serif;
-      margin: -40px 0 0 500px;
-      font-size: 15px;
-      z-index: -1;
-      position: absolute;
-   }
-
-   #secondform {
-      padding: 10px 10px 0 10px;
-      width: 20%;
-      height: 270px;
-      background-color: rgba(119, 73, 237, 0.543);
-      margin: 40px 0 0 750px;
-      border-radius: 14px;
-      border: solid 2px rgb(26, 215, 196);
-      z-index: -1;
-      position: absolute;
-   }
-
-   #fname,
-   #email,
-   #tel {
-      width: 70%;
-
-   }
-
-   #contacttable {
-      text-align: center;
-      width: 60%;
-      margin: 310px 0 0 220px;
-      font-size: 15px;
-      border: 1px solid#3a3a3a;
-      border-radius: 1px;
-      position: absolute;
-   }
-
-   #map {
-      margin: 400px 0 0 550px;
-      position: absolute;
-   }
-
-   #map>iframe {
-      width: 800px !important;
-      height: 400px !important;
+      font-size: 14px
    }
 }
