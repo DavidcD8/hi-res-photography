@@ -113,7 +113,7 @@ body {
 }
 
 .backgroundhome {
-   background: url('/assets/images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
+   background: url('../images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
    background-position: center;
 
 }
