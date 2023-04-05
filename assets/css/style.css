@@ -119,8 +119,13 @@ body {
 .backgroundhome {
    background: url('../images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
    background-position: center;
-
 }
+
+#pricingbackimage{
+   background: url('../images/pexels-nazila-azimzada-14791747.jpg') center center / cover no-repeat fixed;
+   background-position: center;
+}
+
 
 body {
    min-height: 100vh;
@@ -160,6 +165,8 @@ footer li {
 
 #pricetextdiv {
    bottom: 30px;
+   background: rgba(2, 6, 52, 0.552);
+   text-shadow: 2px 2px  rgb(5, 65, 35);
    position: relative;
    margin: 0 auto;
    font-family: Verdana, Ubuntu;
@@ -167,6 +174,7 @@ footer li {
    align-items: end;
    font-size: 20px;
    z-index: -1;
+   color: white;
 }
 
 #plans {
