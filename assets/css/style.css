@@ -18,7 +18,11 @@
    padding: 5px;
    width: 100%;
    background-color: #8f63fe;
-
+   
+}
+#logo a{
+   text-decoration: none;
+   color: rgb(26, 215, 196);
 }
 
 #navbar {
