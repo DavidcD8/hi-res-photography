@@ -118,15 +118,16 @@ body {
 
 .backgroundhome {
    background: url('../images/pexels-ichad-windhiagiri-7082467.jpg') center center / cover no-repeat fixed;
-   background-position: center;
+ 
 }
 
 #pricingbackimage{
    background: url('../images/pexels-nazila-azimzada-14791747.jpg') center center / cover no-repeat fixed;
-   background-position: center;
+ 
 }
-
-
+#contactimg{
+   background: url('../images/pexels-alex-andrews-821754.jpg')center center / cover no-repeat fixed;
+}
 body {
    min-height: 100vh;
    display: flex;
