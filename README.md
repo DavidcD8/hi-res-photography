@@ -21,7 +21,8 @@ Featured on all 4 Four pages, the fully responsive navigation bar includes links
 ![Screenshot 2023-03-30 215508](https://user-images.githubusercontent.com/91196677/228965783-59d81868-6e6e-483e-83f4-a7a802ca009b.png)
 
 
-*Gallery ![Screenshot 2023-03-25 181807](https://user-images.githubusercontent.com/91196677/227802897-8faf9579-9fb6-4f0b-b5bd-df189706a78b.png)
+*Gallery![Screenshot 2023-04-05 194922](https://user-images.githubusercontent.com/91196677/230176979-e873d62d-8211-453f-ba71-e74d50279141.png)
+  
 
 
 The gallery will shows the user some images from previous clients to see the quality of the work.
