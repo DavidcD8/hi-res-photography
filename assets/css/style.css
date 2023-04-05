@@ -233,10 +233,15 @@ footer li {
 #map {
    align-self: center;
    margin-top: auto;
-
-
+   
 }
 
+#send{
+   padding: 5px;
+   width: 55px;
+   background-color:aquamarine;
+   border-radius: 3px;
+}
 @media screen and (max-width: 1200px) {
 
    #hometext {
