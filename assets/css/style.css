@@ -174,7 +174,7 @@ footer li {
    justify-content: center;
    margin: 0 auto;
    position: relative;
-   display: flexbox;
+   display: block;
    bottom: 20px;
    z-index: -1;
 }
@@ -186,7 +186,7 @@ footer li {
    padding: 25px;
    margin: 0 auto;
    margin: 5px;
-   display: flexbox;
+   display: block;
    color: white;
 
 }
@@ -248,7 +248,7 @@ footer li {
    .img {
       display: flex;
       margin: 0 0 30px 0;
-      padding: -200px 0 0 0;
+      padding: 10px  ;
    }
 
 
